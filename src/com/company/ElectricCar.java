@@ -1,6 +1,6 @@
 package com.company;
 
-public class ElectricCar implements Vehicle {
+public class ElectricCar implements ElectricVehicle {
 
     @Override
     public void speed() {
@@ -8,7 +8,7 @@ public class ElectricCar implements Vehicle {
     }
 
     @Override
-    public void addFuel() {
-
+    public void chargeBattery() {
+        System.out.println("charging the Battery...");
     }
 }

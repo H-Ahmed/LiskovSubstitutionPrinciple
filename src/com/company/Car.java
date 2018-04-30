@@ -1,6 +1,6 @@
 package com.company;
 
-public class Car implements Vehicle {
+public class Car implements NormalVehicle {
 
     @Override
     public void speed() {
